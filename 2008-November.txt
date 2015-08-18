@@ -1,0 +1,29 @@
+From ozgur at linuxsistem.com  Fri Nov 28 13:06:42 2008
+From: ozgur at linuxsistem.com (=?UTF-8?B?w7Z6Z8O8ciB1bmN1b8SfbHU=?=)
+Date: Fri, 28 Nov 2008 14:06:42 +0200
+Subject: [Weever-users] python module problem.
+Message-ID: <492FDED2.1080605@linuxsistem.com>
+
+hi everyone,
+
+I think have a problem  with missing python module named users.When I 
+try to start weever.tac with twistd ,this error message appeared.
+
+[localhost] src > twistd -oy weever.tac
+
+Failed to load application: No module named users
+[localhost] src >
+
+
+also there are few lines from twistd.log file
+
+from users import auth
+exceptions.ImportError: No module named users
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+
